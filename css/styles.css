@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+header {
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.webstudio-container {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;    
+}
+
+.webstudio-text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: right;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #2196F3;
+
+}
+
+.menunav {
+    position: absolute;
+    width: 281px;
+    height: 16px;
+    left: 453px;
+    top: 32px;   
+    word-spacing: 45px;
+    
+}
+
+.menunav-text {
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #212121;
+}
+
+.menunav-text:hover{
+    color: #2196F3;
+}
+
+.contact {
+    position: absolute;
+    width: 350px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;   
+        
+}
+
+.mail-text,
+.phone-text{   
+    
+    height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #757575;
+}
+
+.bg-section {
+    
+    width: 1600px;
+    height: 600px;
+    left: -4px;
+    top: 80px;
+    background: #2F303A;
+}
+
+h1 {
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 448px;
+    top: 200px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+button {
+    position: absolute;
+    width: 261px;
+    height: 50px;
+    left: 666px;
+    top: 360px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    
+}
+
+.table-cont1 {
+    margin-top: 95px; 
+    margin-bottom: 115px;
+    width: 1170px;
+    margin-left: 215px;
+    
+}
+
+.table-cont1 th {
+    text-align: left;
+    text-transform: uppercase;
+    color: #212121;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+
+}
+
+.table-cont1 td {
+    font-weight: 400;
+    font-size: 14px;
+    color: #757575;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+}
+
+.wedo h2 {
+    
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+margin-left: 619px;
+letter-spacing: 0.03em;
+color: #212121;
+
+}
+
+.img1 {  
+
+margin-left: 215px;
+margin-right: 30px;
+
+
+}
+
+.img2 {
+    
+    margin-right: 30px;    
+}
+
+.team{
+
+width: 1600px;
+height: 648px;
+background: #F5F4FA;
+
+}
+
+.team h2 {
+margin-top: 194px;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.contimg4, .contimg5, .contimg6, .contimg7 {
+    
+width: 270px;
+height: 368px;
+background-color: #FFFFFF;
+}
+
+footer {
+    
+    width: 1600px;
+    height: 252px;
+    background: #2F303A;
+
+}
+
+.webstudio-text2{
+   
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: right;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #2196F3;
+
+
+}
+
+footer p {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+
+}
+
+
+.mailfoot {
+
+    margin-top: 2306px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.phonefoot {
+    
+    margin-top: 2329px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    
+}
