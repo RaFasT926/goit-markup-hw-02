@@ -2,6 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
 
+:root {
+   --title-highlighted-text-color: #2196F3;
+   --main-footer-bg: #2F303A;
+   --team-bg: #F5F4FA;
+   --text-main-color: #212121;
+   --text-secondary-color: #757575;
+
+}
+
 *,
 *::before,
 *::after {
@@ -19,6 +28,7 @@ header {
 body {
     font-family: 'Roboto';
     font-style: normal;
+    color: var(--text-main-color);
     
 }
 
@@ -32,14 +42,14 @@ body {
 
 .webstudio-text {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     text-align: right;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #2196F3;
+    color: var(--title-highlighted-text-color);
+
 
 }
 
@@ -60,11 +70,11 @@ body {
     line-height: 16px;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #212121;
+    color: var(--text-main-color);
 }
 
 .menunav-text:hover{
-    color: #2196F3;
+    color: var(--title-highlighted-text-color);
     cursor: pointer;
 }
 
@@ -85,7 +95,7 @@ body {
     line-height: 16px;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #757575;
+    color: var(--text-secondary-color);
     
 }
 
@@ -98,14 +108,14 @@ body {
     line-height: 16px;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #757575;
+    color: var(--text-secondary-color);
         
 }
 
 .mail-text:hover,
 .phone-text.phone-text:hover{   
     
-    color: #2196F3;
+    color: var(--title-highlighted-text-color);
 
 }
 
@@ -115,7 +125,7 @@ body {
     height: 600px;
     left: -4px;
     top: 80px;
-    background: #2F303A;
+    background: var(--main-footer-bg);
 }
 
 
@@ -135,13 +145,13 @@ h1 {
     color: #FFFFFF;
 }
 
-button {
+.big-button {
     position: absolute;
     width: 261px;
     height: 50px;
     left: 666px;
     top: 390px;
-    background: #2196F3;
+    background: var(--title-highlighted-text-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
@@ -174,7 +184,7 @@ button {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--text-main-color);
     
 }
 
@@ -184,7 +194,7 @@ button {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-secondary-color);
     
     
 }
@@ -208,7 +218,7 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--text-main-color);
 
 }
 
@@ -227,7 +237,7 @@ color: #212121;
     height: 648px;
     left: 0px;
     top: 1510px;
-    background: #F5F4FA;
+    background: var(--team-bg);
 }
 
 .team h2 {
@@ -238,7 +248,7 @@ color: #212121;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--text-main-color);
 
 }
 
@@ -254,7 +264,7 @@ color: #212121;
     width: 270px;
     margin: 10px -70px 30px 100px;    
     text-align: center;  
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     
@@ -267,16 +277,16 @@ font-size: 16px;
 line-height: 19px;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--text-main-color);
 }
 
 .image2 p:nth-child(4) {
-font-weight: 400;
+
 font-size: 16px;
 line-height: 19px;
 text-align: center;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--text-secondary-color);
 }
 
 footer {
@@ -286,7 +296,7 @@ width: 1600px;
 height: 252px;
 left: 0px;
 top: 2158px;
-background: #2F303A;
+background: var(--main-footer-bg);
 
 }
 
@@ -300,7 +310,7 @@ background: #2F303A;
     text-align: right;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #2196F3;
+    color: var(--title-highlighted-text-color);
 
 
 }
@@ -350,5 +360,40 @@ address {
 
 .mailfoot:hover,
 .phonefoot:hover {
-    color: #2196F3;
+    color: var(--title-highlighted-text-color);
+}
+
+.buttons-container {
+    position: absolute;
+    width: 611px;
+    height: 54px;
+    left: 495px;
+    top: 186px;
+    
+    
+}
+
+.button2{
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: #F5F4FA;
+    color: var(--text-main-color);
+    box-shadow: none;
+    border: none;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px -5px 0px 11px; 
+    
+}
+
+.button2:hover {
+    background-color: var(--title-highlighted-text-color);
+    color: #FFFFFF;
 }
